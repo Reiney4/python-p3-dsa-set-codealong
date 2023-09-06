@@ -41,7 +41,7 @@ class TestSet:
 
 # Bonus test
 
-    """def test_clear(self):
+    def test_clear(self):
         '''Test clearing set'''
         test_set = MySet([1,2,3,4])
         test_set.clear()
@@ -51,4 +51,3 @@ class TestSet:
         '''Test __str__()'''
         test_set = MySet([1,2,3,4])
         assert(str(test_set) == 'MySet: {1,2,3,4}')
-"""
